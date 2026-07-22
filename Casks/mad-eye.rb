@@ -21,5 +21,12 @@ cask "mad-eye" do
     mad-eye reads Claude Code's OAuth credentials from your Keychain, so it needs
     Claude Code installed and logged in. On first launch macOS asks to read the
     "Claude Code-credentials" item — click "Always Allow".
+
+    mad-eye isn't code-signed yet, so macOS Gatekeeper quarantines it. Clear the
+    flag once so it opens:
+
+      xattr -dr com.apple.quarantine "/Applications/mad-eye.app"
+
+    (Or open it via System Settings → Privacy & Security → "Open Anyway".)
   EOS
 end
