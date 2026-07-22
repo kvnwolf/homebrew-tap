@@ -1,6 +1,6 @@
 cask "mad-eye" do
-  version "0.1.0"
-  sha256 "1f6f47fc449ba2c39e5169632697ea595edeb78f6552c42cc11b6afa938eb5a7"
+  version "0.1.1"
+  sha256 "cc24f5638d736bd43a4ea6254fd4b150d65694a27f925d708b70e94a0d021075"
 
   url "https://github.com/kvnwolf/mad-eye/releases/download/v#{version}/mad-eye_#{version}_universal.dmg"
   name "mad-eye"
